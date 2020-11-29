@@ -1,19 +1,23 @@
 {
   "name": "sentry-test",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": true,
   "dependencies": {
+    "@sentry/react": "^5.27.6",
+    "@sentry/tracing": "^5.27.6",
+    "@sentry/webpack-plugin": "^1.14.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "craco": "^0.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
